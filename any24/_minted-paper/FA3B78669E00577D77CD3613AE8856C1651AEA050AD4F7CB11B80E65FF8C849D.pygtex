@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{\PYGZus{}count\PYGZus{}parameters}\PYG{p}{(}\PYG{n}{func}\PYG{p}{:} \PYG{n}{Callable}\PYG{p}{[}\PYG{n}{Any}\PYG{p}{,} \PYG{n}{Any}\PYG{p}{])} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{int}\PYG{p}{:}
+  \PYG{k}{return} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{signature}\PYG{p}{(}\PYG{n}{func}\PYG{p}{)}\PYG{o}{.}\PYG{n}{parameters}\PYG{p}{)}
+\end{Verbatim}

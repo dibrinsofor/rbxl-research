@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{types}\PYG{p}{;} \PYG{k+kn}{from} \PYG{n+nn}{typing} \PYG{k+kn}{import} \PYG{n}{Any} \PYG{c+c1}{\PYGZsh{} the dynamic type in Python}
+
+\PYG{k}{def} \PYG{n+nf}{addPrice}\PYG{p}{(}\PYG{n+nb+bp}{cls}\PYG{p}{:} \PYG{n}{Any}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{Any}\PYG{p}{:} \PYG{c+c1}{\PYGZsh{} mixin, add method to class}
+  \PYG{n+nb+bp}{cls}\PYG{o}{.}\PYG{n}{price} \PYG{o}{=} \PYG{n}{types}\PYG{o}{.}\PYG{n}{MethodType}\PYG{p}{(}\PYG{k}{lambda} \PYG{n+nb+bp}{self}\PYG{p}{:} \PYG{l+m+mi}{99}\PYG{p}{,} \PYG{n+nb+bp}{cls}\PYG{p}{)}
+  \PYG{k}{return} \PYG{n+nb+bp}{cls}
+\end{Verbatim}

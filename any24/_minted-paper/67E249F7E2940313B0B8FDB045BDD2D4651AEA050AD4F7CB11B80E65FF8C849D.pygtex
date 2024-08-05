@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf+fm}{\PYGZus{}\PYGZus{}init\PYGZus{}\PYGZus{}}\PYG{p}{(}\PYG{n+nb+bp}{self}\PYG{p}{,} \PYG{n}{value} \PYG{p}{:} \PYG{n}{Any}\PYG{p}{,} \PYG{n}{found} \PYG{p}{:} \PYG{n+nb}{bool}\PYG{p}{):}
+  \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{found} \PYG{p}{:} \PYG{n+nb}{bool} \PYG{o}{=} \PYG{n}{found}
+  \PYG{k}{if} \PYG{n}{found}\PYG{p}{:}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{value} \PYG{o}{=} \PYG{n+nb}{int}\PYG{p}{(}\PYG{n}{value}\PYG{p}{)}
+  \PYG{k}{else}\PYG{p}{:}
+    \PYG{n+nb+bp}{self}\PYG{o}{.}\PYG{n}{value} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}.\PYGZsq{}}
+\end{Verbatim}

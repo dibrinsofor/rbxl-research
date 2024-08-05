@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{class} \PYG{n+nc}{Parent}\PYG{p}{():}
+  \PYG{k}{def} \PYG{n+nf}{something}\PYG{p}{(}\PYG{n}{x}\PYG{p}{:} \PYG{n}{Any}\PYG{p}{):}
+    \PYG{k}{pass}
+
+\PYG{k}{class} \PYG{n+nc}{Super}\PYG{p}{(}\PYG{n}{Parent}\PYG{p}{):}
+  \PYG{k}{def} \PYG{n+nf}{something}\PYG{p}{(}\PYG{n}{x}\PYG{p}{:} \PYG{n+nb}{int}\PYG{p}{):} \PYG{c+c1}{\PYGZsh{}type: ignore[override]}
+    \PYG{k}{pass}
+\end{Verbatim}

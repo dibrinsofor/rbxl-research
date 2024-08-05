@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{eq}\PYG{p}{(}\PYG{n}{a}\PYG{p}{:} \PYG{n}{Any}\PYG{p}{,} \PYG{n}{b}\PYG{p}{:} \PYG{n}{Any}\PYG{p}{)} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n+nb}{bool}\PYG{p}{:}
+  \PYG{k}{return} \PYG{n}{a} \PYG{o}{==} \PYG{n}{b}
+\end{Verbatim}

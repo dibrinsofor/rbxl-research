@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} module A}
+\PYG{k+kd}{local} \PYG{n}{A} \PYG{o}{=} \PYG{n+nb}{require}\PYG{p}{(}\PYG{n}{script}\PYG{p}{.}\PYG{n}{B}\PYG{p}{)}
+
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} module B}
+\PYG{k+kd}{local} \PYG{n}{B} \PYG{o}{=} \PYG{n+nb}{require}\PYG{p}{(}\PYG{n}{script}\PYG{p}{.}\PYG{n}{A}\PYG{p}{)} \PYG{p}{::} \PYG{n+nl}{any} \PYG{c+c1}{\PYGZhy{}\PYGZhy{} cyclic dependency fixed with any}
+\end{Verbatim}

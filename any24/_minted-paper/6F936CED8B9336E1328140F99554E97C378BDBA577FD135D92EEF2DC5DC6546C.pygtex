@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} 1}
+\PYG{n}{export} \PYG{n+nb}{type} \PYG{n}{AnyFunction} \PYG{o}{=} \PYG{p}{()}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{p}{(} \PYG{n}{any}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} 2}
+\PYG{n+nb}{type} \PYG{n}{Callback} \PYG{o}{=} \PYG{p}{(...}\PYG{n}{any}\PYG{err}{?}\PYG{p}{)}\PYG{o}{\PYGZhy{}\PYGZgt{}}\PYG{p}{(} \PYG{p}{...}\PYG{n}{any}\PYG{err}{?}\PYG{p}{)}
+\PYG{c+c1}{\PYGZhy{}\PYGZhy{} 3}
+\PYG{n}{export} \PYG{n+nb}{type} \PYG{n}{Table} \PYG{o}{=} \PYG{p}{\PYGZob{}[}\PYG{n}{any}\PYG{p}{]:} \PYG{n}{any}\PYG{p}{\PYGZcb{}}
+\end{Verbatim}

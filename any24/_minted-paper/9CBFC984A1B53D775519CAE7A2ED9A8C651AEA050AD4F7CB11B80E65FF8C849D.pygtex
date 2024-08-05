@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{TypeVar}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}Car\PYGZsq{}}\PYG{p}{,} \PYG{n+nb}{str}\PYG{p}{,} \PYG{n+nb}{bytes}\PYG{p}{)}
+\end{Verbatim}
