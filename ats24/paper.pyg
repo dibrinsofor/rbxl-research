@@ -1,0 +1,5 @@
+-- module A
+local A = require(script.B)
+
+-- module B
+local B = require(script.A) :: any -- cyclic dependency fixed with any
